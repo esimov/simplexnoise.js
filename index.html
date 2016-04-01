@@ -1,0 +1,30 @@
+<!-- @author Simo Endre (@simo_endre) -->
+<!DOCTYPE HTML>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html">
+    <meta name="description" content="Simplex Noise Test">
+    <meta name="author" content="Simo Endre">
+    <meta name="keywords" content="noise, generative, perlin, simplex, pattern, cellular, automata, art, javascript, experiments"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>    
+    <title>Simplex Noise Test</title>
+</head>
+<canvas id="c" width=256 height=256 style="width:512px;height:512px;"></canvas>
+
+<script src="src/Noise.js"></script>
+<script src="src/SimplexNoise.js"></script>
+<script src="example/SimplexTest.js"></script>
+<script src="libs/stats.js"></script>
+<script>
+    var stats = new Stats();
+    stats.getDomElement().style.position = 'absolute';
+    stats.getDomElement().style.left = parseInt(window.innerWidth) - 80 + 'px';
+    stats.getDomElement().style.top = 0 + 'px';
+    document.body.appendChild(stats.getDomElement());
+    setInterval(function() {
+        stats.update();
+    }, 1000/60);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "javascript-simplex-noise",
+  "title": "Javascript Simplex Noise",
+  "version": "0.0.1",
+  "keywords": [
+    "Simplex Noise"    
+  ],
+  "devDependencies": {
+    "node-static": "~0.7.7"
+  }
+}
