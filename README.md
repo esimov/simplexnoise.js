@@ -1,5 +1,4 @@
 # simplexnoise.js
-Javascript simplex noise implementation based on Stefan Gustavson paper: http://webstaff.itn.liu.se/~stegu/simplexnoise/simplexnoise.pdf
 
 This is a javascript port of the original java version implemented by Stefan Gustavson (http://staffwww.itn.liu.se/~stegu/simplexnoise/SimplexNoise.java).
 
