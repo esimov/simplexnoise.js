@@ -11,7 +11,7 @@ To check the example provided you have two option. Either by using `npm install`
 ```
 node app.js
 ```
-in the console. After this you can run the experiment from the browser by typing `localhost:3000`.
+After this you can access the server from the browser by typing `localhost:3000`.
 
 Another way is to run `index.html` directly.
 
